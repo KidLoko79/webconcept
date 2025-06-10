@@ -1,0 +1,56 @@
+[
+  {
+    "label": "3D-01",
+    "scroll": [0.00, 0.10],
+    "actions": [
+      { "tag":"3D-LEFT-01",
+  "prop":"localPosition:x",
+  "from":-16,
+  "to":0,
+  "ease":"TWEEN.Easing.Elastic.Out"
+}
+
+    ]
+  },
+
+
+{
+    "label": "3D-02",
+    "scroll": [0.10, 0.20],
+    "actions": [
+      { "tag":"3D-UP-01",
+  "prop":"localPosition:y",
+  "from":3,
+  "to":20,
+  "ease":"Quadratic.Out"
+}
+
+ ]
+  },
+
+
+{
+    "label": "CAM-01",
+    "scroll": [0.25, 0.35],
+    "actions": [
+      { "tag":"CAM-01",
+  "prop":"localPosition:y",
+  "from":0,
+  "to":40,
+  "ease":"Quadratic.Out"
+}
+ ]
+  },
+
+
+  {
+    "label": "section1Pin",
+    "scroll": [0.20, 0.40],
+    "actions": [
+      {
+        "pinHtmlId": "sec1",
+        "mode": "pin"
+      }
+    ]
+  }
+]
